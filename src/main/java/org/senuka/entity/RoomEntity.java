@@ -24,7 +24,7 @@ public class RoomEntity {
     private List<ParticipantEntity> participants;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
-    private CallEntity room;
+    private CallEntity call;
 
 
 }

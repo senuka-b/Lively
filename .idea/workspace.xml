@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create websocket configuration and other configuration files.">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/WebsocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/util/IceCandidateType.java" afterDir="false" />
+    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create spring boot initializer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/RoomEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/RoomEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat-websocket" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
