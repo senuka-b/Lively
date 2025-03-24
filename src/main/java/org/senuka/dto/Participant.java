@@ -9,4 +9,6 @@ public class Participant {
     private Long id;
     private String username;
     private String colorCode;
+
+    private Room room;
 }

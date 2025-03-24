@@ -10,5 +10,8 @@ import java.util.List;
 public class Room {
     private Long id;
     private User owner;
+    private String code;
     private List<Participant> participants;
+
+    private Call call;
 }

@@ -1,5 +1,7 @@
 package org.senuka.dto;
 
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import lombok.Builder;
 import lombok.Data;
 import org.senuka.util.SdpDescriptionType;
@@ -8,6 +10,9 @@ import org.senuka.util.SdpDescriptionType;
 @Builder
 public class SdpDescription {
     private Long id;
+
+    @Enumerated(EnumType.STRING)
     private SdpDescriptionType type;
-    private Object sdp;
+
+    private String sdp;
 }

@@ -7,5 +7,7 @@ import lombok.Data;
 @Builder
 public class IceCandidate {
     private Long id;
-    private Object candidateData;
+    private String candidateData;
+
+    private Call call;
 }
