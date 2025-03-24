@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create spring boot initializer">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c092362052cc69b074bbe7848e64788cb64c7c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c092362052cc69b074bbe7848e64788cb64c7c5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Participant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/SdpDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/SdpDescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" afterDir="false" />
+    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create websocket configuration and other configuration files.">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/util/IceCandidateType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +47,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Lively Final Project",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "2f63e03a88b9ac55f9167ead043cc7cb"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Lively Final Project&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;2f63e03a88b9ac55f9167ead043cc7cb&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
@@ -96,6 +97,8 @@
       <workItem from="1742737027869" duration="259000" />
       <workItem from="1742737295961" duration="3643000" />
       <workItem from="1742791771545" duration="6889000" />
+      <workItem from="1742800479573" duration="3000" />
+      <workItem from="1742828192751" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="Create DTO classes">
       <created>1742792897210</created>
@@ -111,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742792921413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create websocket configuration and other configuration files.&#10;Update IceCandidate to include Candidate type">
+      <created>1742833590465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742833590465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create DTO classes" />
     <MESSAGE value="Create spring boot initializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create spring boot initializer" />
+    <MESSAGE value="Create websocket configuration and other configuration files.&#10;Update IceCandidate to include Candidate type" />
+    <MESSAGE value="Create websocket configuration and other configuration files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create websocket configuration and other configuration files." />
   </component>
 </project>
