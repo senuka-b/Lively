@@ -4,36 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="" />
+    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create spring boot initializer">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c092362052cc69b074bbe7848e64788cb64c7c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c092362052cc69b074bbe7848e64788cb64c7c5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Participant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/SdpDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/SdpDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2uiffJKlwL9kO5GjwrGsaldPtYU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "E:/Lively Final Project",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "2f63e03a88b9ac55f9167ead043cc7cb"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -43,6 +73,15 @@
       <command value="mvn clean package" />
       <command value="mvn clean install -U " />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run Lively" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="org.senuka.Main" />
+      <module name="Lively-Backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,8 +94,24 @@
       <workItem from="1742736420258" duration="498000" />
       <workItem from="1742736933199" duration="84000" />
       <workItem from="1742737027869" duration="259000" />
-      <workItem from="1742737295961" duration="1854000" />
+      <workItem from="1742737295961" duration="3643000" />
+      <workItem from="1742791771545" duration="6889000" />
     </task>
+    <task id="LOCAL-00001" summary="Create DTO classes">
+      <created>1742792897210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742792897211</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create spring boot initializer">
+      <created>1742792921413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1742792921413</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +127,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create DTO classes" />
+    <MESSAGE value="Create spring boot initializer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create spring boot initializer" />
   </component>
 </project>
