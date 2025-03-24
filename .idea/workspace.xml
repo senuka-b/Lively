@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create entities and update DTOs to match entities">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_24_2025_12_27_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_24_2025_12_27_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/IceCandidateEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/IceCandidateEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create websocket configuration and other configuration files.">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30545a8a696aae90a75631817227e094188df613" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/BeanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/WebsocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/senuka/util/IceCandidateType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <workItem from="1742737295961" duration="3643000" />
       <workItem from="1742791771545" duration="6889000" />
       <workItem from="1742800479573" duration="3000" />
-      <workItem from="1742828192751" duration="5295000" />
+      <workItem from="1742828192751" duration="5403000" />
     </task>
     <task id="LOCAL-00001" summary="Create DTO classes">
       <created>1742792897210</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742792921413</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create websocket configuration and other configuration files.&#10;Update IceCandidate to include Candidate type">
+      <created>1742833590465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742833590465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create DTO classes" />
     <MESSAGE value="Create spring boot initializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create spring boot initializer" />
+    <MESSAGE value="Create websocket configuration and other configuration files.&#10;Update IceCandidate to include Candidate type" />
+    <MESSAGE value="Create websocket configuration and other configuration files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Create websocket configuration and other configuration files." />
   </component>
 </project>
