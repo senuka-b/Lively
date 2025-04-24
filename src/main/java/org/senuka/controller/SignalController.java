@@ -23,8 +23,7 @@ public class SignalController {
                                    @DestinationVariable String viewer,
                                    @Payload IceCandidate candidate) {
 
-        System.out.println("Received ICE candidate for stream: " + streamCode + " from viewer: " + viewer);
-        System.out.println("Candidate: " + candidate);
+
 
         simpMessagingTemplate.convertAndSend("/topic/stream/" + streamCode + "/ice-candidate/" + viewer, candidate);
 
@@ -35,8 +34,7 @@ public class SignalController {
                                    @DestinationVariable String viewer,
                                    @Payload SdpDescription sdp) {
 
-        System.out.println("Received SDP for stream: " + streamCode + " from viewer: " + viewer);
-        System.out.println("SDP: " + sdp.getType());
+
 
         simpMessagingTemplate.convertAndSend("/topic/stream/" + streamCode + "/sdp/" + viewer, sdp);
 
@@ -45,7 +43,6 @@ public class SignalController {
     @MessageMapping("/stream/join")
     public void join(@Payload JoinRequest joinRequest) {
 
-        System.out.println("Received join request: " + joinRequest + " " +  joinRequest.getUniqueID());
 
         simpMessagingTemplate.convertAndSend(String.format("/topic/stream/%s/new-join", joinRequest.getStreamCode()), joinRequest.getUniqueID());
 
