@@ -15,7 +15,7 @@ public class CallEntity {
 
     @OneToOne
     @JoinColumn(name = "room_id", nullable = false)
-    private RoomEntity room;
+    private StreamEntity room;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "offer_sdp_id")
@@ -25,10 +25,6 @@ public class CallEntity {
     @JoinColumn(name = "answer_sdp_id")
     private SdpDescriptionEntity answer;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<IceCandidateEntity> offerCandidates;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<IceCandidateEntity> answerCandidates;
 
 }

@@ -2,7 +2,7 @@ package org.senuka.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.senuka.util.SdpDescriptionType;
+import org.senuka.util.CandidateDescriptionType;
 
 @Entity
 @Table(name = "sdp_description")
@@ -13,7 +13,7 @@ public class SdpDescriptionEntity {
     private Long id;
 
     @Enumerated(EnumType.STRING)
-    private SdpDescriptionType type;
+    private CandidateDescriptionType type;
     private String sdp;
 
 }
