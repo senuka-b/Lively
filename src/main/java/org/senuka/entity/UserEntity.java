@@ -18,6 +18,6 @@ public class UserEntity {
     private String password;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<RoomEntity> rooms;
+    private List<StreamEntity> rooms;
 
 }

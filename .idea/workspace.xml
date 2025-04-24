@@ -4,9 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Create spring boot initializer">
+    <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Remove answer candidates">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_24_2025_12_27_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_3_24_2025_12_27_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/30545a8a696aae90a75631817227e094188df613" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/0/30545a8a696aae90a75631817227e094188df613" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/RoomEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/RoomEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/confg/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/confg/WebsocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/confg/WebsocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/CallController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Call.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/IceCandidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Participant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/SdpDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/CallEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/CallEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/IceCandidateEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/ParticipantEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/RoomEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/StreamEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/SdpDescriptionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/SdpDescriptionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/CallServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/CallServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/util/IceCandidateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/util/CandidateDescriptionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/util/SdpDescriptionType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +119,11 @@
       <workItem from="1742791771545" duration="6889000" />
       <workItem from="1742800479573" duration="3000" />
       <workItem from="1742828192751" duration="5403000" />
+      <workItem from="1742871799638" duration="223000" />
+      <workItem from="1743142540910" duration="1395000" />
+      <workItem from="1745410329097" duration="764000" />
+      <workItem from="1745457007310" duration="1463000" />
+      <workItem from="1745475160132" duration="30604000" />
     </task>
     <task id="LOCAL-00001" summary="Create DTO classes">
       <created>1742792897210</created>
