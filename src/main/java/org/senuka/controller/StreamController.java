@@ -25,11 +25,11 @@ public class StreamController {
                 : ResponseEntity.ok(streams);
     }
 
-    @GetMapping("/{streamID}")
-    public ResponseEntity<Stream> getRoomById(@PathVariable Long streamID) {
-        Stream streamById = streamService.getRoomById(streamID);
+    @GetMapping("/{streamCode}")
+    public ResponseEntity<Stream> getRoomByCode(@PathVariable String streamCode) {
+        Stream streamByCode = streamService.getStreamByCode(streamCode);
 
-        return streamById == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(streamById);
+        return streamByCode == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(streamByCode);
     }
 
     @PostMapping
