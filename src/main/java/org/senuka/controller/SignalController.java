@@ -53,6 +53,15 @@ public class SignalController {
 
     }
 
+    @MessageMapping("/stream/{streamCode}/end")
+    public void handleStreamEnd(@DestinationVariable String streamCode) {
+
+        System.out.println("Stream ended: " + streamCode);
+
+        simpMessagingTemplate.convertAndSend("/topic/stream/" + streamCode + "/end", "Stream has ended");
+
+    }
+
 
 
 }

@@ -7,6 +7,7 @@
     <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Remove answer candidates">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
