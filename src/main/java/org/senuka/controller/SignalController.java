@@ -4,14 +4,11 @@ import lombok.RequiredArgsConstructor;
 import org.senuka.dto.IceCandidate;
 import org.senuka.dto.JoinRequest;
 import org.senuka.dto.SdpDescription;
-import org.senuka.dto.Stream;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Controller
 @RequiredArgsConstructor
