@@ -19,28 +19,19 @@ public class AuthController {
     @PostMapping("/login")
     public ResponseEntity<AuthResponse> login(@RequestBody LoginUser user) {
 
-        System.out.println("Login user : " + user);
-
         try {
             AuthResponse authResponse = authService.login(user);
             return ResponseEntity.ok(authResponse);
 
         } catch (Exception e) {
-            System.out.println("Error : " + e.getMessage());
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
         }
 
     }
 
-    @GetMapping("/test")
-    public void test() {
-        System.out.println("TEST CALLED" );
-    }
 
     @PostMapping("/register")
     public ResponseEntity<AuthResponse> register(@RequestBody RegisterUser user) {
-        System.out.println("Userx : " + user);
-
 
         try {
             AuthResponse authResponse = authService.register(user);

@@ -1,6 +1,7 @@
 package org.senuka.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.senuka.dto.ChatMessage;
 import org.senuka.dto.IceCandidate;
 import org.senuka.dto.JoinRequest;
 import org.senuka.dto.SdpDescription;
@@ -40,13 +41,17 @@ public class SignalController {
     @MessageMapping("/stream/join")
     public void join(@Payload JoinRequest joinRequest) {
 
-
         simpMessagingTemplate.convertAndSend(String.format("/topic/stream/%s/new-join", joinRequest.getStreamCode()), joinRequest.getUniqueID());
-
 
     }
 
+    @MessageMapping("/stream/{streamCode}/chat")
+    public void handleChatMessage(@DestinationVariable String streamCode,
+                                  @Payload ChatMessage message) {
 
+        simpMessagingTemplate.convertAndSend("/topic/stream/" + streamCode + "/chat", message);
+
+    }
 
 
 

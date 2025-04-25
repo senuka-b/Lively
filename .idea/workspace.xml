@@ -7,8 +7,11 @@
     <list default="true" id="eb86e436-dda3-4467-8be6-407a74c89d4f" name="Changes" comment="Remove answer candidates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/CustomUserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/CustomUserDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/JwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/JwtServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/SignalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/controller/StreamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/controller/StreamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/repository/StreamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/repository/StreamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/service/StreamService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/service/StreamService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/StreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/senuka/service/impl/StreamServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
