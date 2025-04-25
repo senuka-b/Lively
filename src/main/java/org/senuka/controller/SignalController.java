@@ -1,17 +1,15 @@
 package org.senuka.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.senuka.dto.ChatMessage;
 import org.senuka.dto.IceCandidate;
 import org.senuka.dto.JoinRequest;
 import org.senuka.dto.SdpDescription;
-import org.senuka.dto.Stream;
 import org.springframework.messaging.handler.annotation.DestinationVariable;
-import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Controller
 @RequiredArgsConstructor
@@ -43,13 +41,17 @@ public class SignalController {
     @MessageMapping("/stream/join")
     public void join(@Payload JoinRequest joinRequest) {
 
-
         simpMessagingTemplate.convertAndSend(String.format("/topic/stream/%s/new-join", joinRequest.getStreamCode()), joinRequest.getUniqueID());
-
 
     }
 
+    @MessageMapping("/stream/{streamCode}/chat")
+    public void handleChatMessage(@DestinationVariable String streamCode,
+                                  @Payload ChatMessage message) {
 
+        simpMessagingTemplate.convertAndSend("/topic/stream/" + streamCode + "/chat", message);
+
+    }
 
 
 

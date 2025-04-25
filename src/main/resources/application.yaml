@@ -16,3 +16,6 @@ spring:
   output:
     ansi:
       enabled: always
+
+  config:
+    import: classpath:secrets.properties

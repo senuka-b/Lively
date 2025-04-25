@@ -34,6 +34,13 @@ public class StreamServiceImpl implements StreamService {
     }
 
     @Override
+    public Stream getStreamByCode(String code) {
+        StreamEntity streamEntity = repository.findByCode(code).orElse(null);
+
+        return streamEntity == null ? null : mapper.map(streamEntity, Stream.class);
+    }
+
+    @Override
     public Stream createRoom(Stream stream) {
         if (repository.existsByCode(stream.getCode())) {
             throw new RuntimeException("Room with code " + stream.getCode() + " already exists");
